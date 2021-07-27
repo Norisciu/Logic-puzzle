@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.App {
+  text-align: center;
+  height: 80vmin;
+  width: 80vmin;
+  background-color: #f9f9f9ff;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row {
+  width: 100%;
+}
+
+.row-middle{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-top , .row-bottom{
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.grid-placeholder {
+  width : 59vmin;
+  height : 59vmin;
+  background-color: cornflowerblue;
+  margin: 0 auto;
+}
+
+.controls {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.board-grid {
+  display: grid;
+  width : 59vmin;
+  height : 59vmin;
+  margin: 0 auto;
+
+}
+
+.grid-tile {
+  background-color: white ;
+  border: 2px #e6e6e6ff solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.token {
+  width : 72%;
+  height: 72%;
+  border-radius: 50%;
+  border: solid 1mm #e6e6e6ff;
+  background-color: lightgreen;
+}
+
+.token-red {
+  background-color: #c83737ff;
+}
+
+.token-blue {
+  background-color: #003380ff;
+}
+
+.token-square {
+  width: 69%;
+  height: 69%;
+  background-color: #916f6fff;
+  border-radius: 0;
+}
+
